@@ -26,12 +26,6 @@ hr.solid {
   width: 25%;
 }
 
-.col-1-3 {
-  float: left;
-  padding: 15px;
-  width: 30%
-}
-
 .section {
   margin: 0 auto;
   padding: 75px 0;
@@ -55,4 +49,10 @@ hr.solid {
 
 .section-container {
   margin-top: 30px;
+}
+
+.col-1-3 {
+  float: left;
+  padding: 15px;
+  width: 30%
 }
