@@ -9,6 +9,7 @@ header {
 
 body {
   background-color:burlywood;
+  border: 2px solid black;
 }
 
 nav {
@@ -19,14 +20,11 @@ nav {
   right: 0;
   height: 70px;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
   z-index: 10;
-}
-
-#nav-menu {
-  padding-left: 300px;
-  /* background-color: chocolate; */
+  border: 2px solid black;
 }
 
 #nav-menu ul li {
@@ -52,14 +50,10 @@ nav {
 }
 
 .container {
-  width: 100%;
+  width: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
   /* background-color: chocolate; */
 }
 
@@ -67,6 +61,7 @@ nav ul {
   list-style-type:none;
   display: flex;
   flex-direction: row;
+  padding-right: 100px;
 }
 
 nav li{
@@ -88,10 +83,20 @@ nav li a:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  height: 100vh;
+  /* max-width: 1200px;
+  height: 100vh; */
   margin: auto;
   background-color: rgb(132, 202, 28);
+}
+
+#landing-section {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  height: 100vh;
+  background-color: lightcoral;
 }
 
 #landing-col-1 {
