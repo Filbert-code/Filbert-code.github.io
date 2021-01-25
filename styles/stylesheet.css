@@ -202,11 +202,12 @@ nav li a:hover {
 
 #projects-section {
   width: 1200px;
-  height: 100vh;
+  height: 80vh;
   display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  /* margin: auto; */
+  align-items:center;
+  justify-content: space-evenly;
   background-color: aquamarine;
 }
 
@@ -216,7 +217,17 @@ nav li a:hover {
   flex-direction: row;
   justify-content: space-between;
   background-color: blueviolet;
-  margin: auto;
+  /* margin: auto; */
+}
+
+#projects-section h2 {
+  font-size: 60px;
+}
+
+#projects-title {
+  width:100%;
+  text-align: center;
+  /* background-color: chocolate; */
 }
 
 #projects-col {
@@ -245,6 +256,8 @@ nav li a:hover {
 @media screen and (max-width: 1200px) {
   #projects-section {
     width:auto;
+    height:auto;
+    flex-direction: column;
   }
   #projects {
     flex-direction: column; 
