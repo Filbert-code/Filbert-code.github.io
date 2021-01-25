@@ -200,11 +200,65 @@ nav li a:hover {
   }
 }
 
-#projects {
+#projects-section {
   width: 1200px;
   height: 100vh;
   display: flex;
   margin: auto;
   align-items: center;
   justify-content: center;
+  background-color: aquamarine;
+}
+
+#projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: blueviolet;
+  margin: auto;
+}
+
+#projects-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects img {
+  width: 350px;
+}
+
+#projects h3 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+#projects p {
+  font-size: 20px;
+  padding-top: 20px;
+  width: 300px;
+  text-align: center;
+  background-color: chocolate;
+}
+
+@media screen and (max-width: 1200px) {
+  #projects-section {
+    width:auto;
+  }
+  #projects {
+    flex-direction: column; 
+  }
+
+  #projects img {
+    width: 350px;
+  }
+
+  #projects p {
+    width: 350px;
+  }
+
+  #projects h3 {
+    padding-top: 30px;
+  }
 }
