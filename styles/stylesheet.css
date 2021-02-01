@@ -221,6 +221,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen and (max-width: 600px)
 and (-webkit-min-device-pixel-ratio: 2) {
+  #projects-section {
+    background-color: rgb(51, 233, 5);
+  }
   #projects-content {
     flex-direction: column;
     /* width:100vh; */
