@@ -8,6 +8,7 @@ body {
   background-color: rgb(6, 0, 34);
   border: 2px solid black;
   color: white;
+
 }
 
 .container {
@@ -52,7 +53,9 @@ nav {
 
 
 @media only screen and (max-width: 992px) {
-
+  .container {
+    max-width: 992px;
+  }
 }
 
 /* ==== LANDING SECTION ==== */ 
@@ -66,7 +69,7 @@ nav {
   margin:auto;
   max-width: 992px;
   height: 95vh;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 #landing-content-1 {
@@ -133,18 +136,25 @@ nav {
 
 
 @media only screen and (max-width: 992px) {
-  
+  #landing {
+    max-width: 992px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-  
+  #landing {
+    max-width: 992px;
+  }
 }
 
 /* ==== PROJECTS SECTION ==== */
 
 #projects-section {
-  width: 992px;
-  height: 80vh;
+  position: relative;
+  top:0;
+  max-width: 992px;
+  min-height: 80vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   margin-right: auto;
@@ -197,6 +207,8 @@ nav {
 @media only screen and (max-width: 992px) {
   #projects-content {
     flex-direction: column;
+    /* width:100vh; */
+    max-width: 992px;
   }
 }
 
@@ -204,5 +216,7 @@ nav {
 and (-webkit-min-device-pixel-ratio: 2) {
   #projects-content {
     flex-direction: column;
+    /* width:100vh; */
+    max-width: 992px;
   }
 }
