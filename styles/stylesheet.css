@@ -4,9 +4,10 @@
 }
 
 body {
-  /* background-image:url(/images/project-images/background.jpg); */
-  background-color: azure;
+  background-image:url(/images/project-images/landingbg.jpeg);
+  background-color: rgb(6, 0, 34);
   border: 2px solid black;
+  color: white;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
 }
 
 nav {
-  background-color:#1d20cf;
+  /* background-color:#1d20cf; */
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +30,7 @@ nav {
   align-items: center;
   flex-flow: row nowrap;
   z-index: 2;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 #nav-menu {
@@ -49,15 +50,7 @@ nav {
 
 
 @media only screen and (max-width: 992px) {
-  nav li {
-    font-size: 20px;
-  }
-  nav ul {
-    padding-right: 0;
-  }
-  .container {
-    flex-direction: column;
-  }
+
 }
 
 /* ==== LANDING SECTION ==== */ 
@@ -71,7 +64,6 @@ nav {
   margin:auto;
   max-width: 992px;
   height: 95vh;
-  background-image:url(/images/project-images/landingbg.jpeg);
   /* background-color: blue; */
 }
 
@@ -203,24 +195,5 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
-  #projects-section {
-    width:auto;
-    height:auto;
-    flex-direction: column;
-  }
-  #projects {
-    flex-direction: column; 
-  }
 
-  #projects img {
-    width: 350px;
-  }
-
-  #projects p {
-    width: 350px;
-  }
-
-  #projects h3 {
-    padding-top: 30px;
-  }
 }
