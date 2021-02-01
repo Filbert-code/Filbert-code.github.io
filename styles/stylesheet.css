@@ -151,7 +151,7 @@ nav {
   margin-left: auto;
   align-items:center;
   justify-content: space-evenly;
-  /* background-color: aquamarine; */
+  background-color: rgb(23, 0, 100);
 }
 
 #projects-title {
@@ -195,14 +195,14 @@ nav {
 }
 
 @media only screen and (max-width: 992px) {
-  #projects {
+  #projects-content {
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 600px)
 and (-webkit-min-device-pixel-ratio: 2) {
-  #projects {
+  #projects-content {
     flex-direction: column;
   }
 }
