@@ -34,9 +34,11 @@ nav {
 }
 
 #nav-menu {
-  /* background-color: blueviolet; */
+  background-color: rgba(27, 16, 75, 0.794);
   max-width: 496px;
   display: flex;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
   margin: auto;
   justify-content: space-between;
   
@@ -196,4 +198,10 @@ nav {
 
 @media only screen and (max-width: 992px) {
 
+}
+
+@media only screen and (max-width: 600px) {
+  #projects {
+    flex-direction: column;
+  }
 }
