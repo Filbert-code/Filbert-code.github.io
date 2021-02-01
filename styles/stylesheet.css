@@ -58,6 +58,13 @@ nav {
   }
 }
 
+@media only screen and (max-width: 600px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .container {
+    max-width: 100vh;
+  }
+}
+
 /* ==== LANDING SECTION ==== */ 
 
 #landing {
@@ -143,7 +150,7 @@ nav {
 
 @media only screen and (max-width: 600px) {
   #landing {
-    max-width: 992px;
+    max-width: 100vh;
   }
 }
 
@@ -217,6 +224,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #projects-content {
     flex-direction: column;
     /* width:100vh; */
-    max-width: 992px;
+    max-width: 100vh;
   }
 }
