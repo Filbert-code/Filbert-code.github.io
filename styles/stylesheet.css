@@ -65,8 +65,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   #nav-menu {
     padding: 0;
-    border-radius: 20px;
-    margin: auto;
   }
 
   #nav-menu a {
@@ -172,6 +170,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #self-image {
     width: 150px;
+    height: 150px;
   }
   #title-desc {
     font-size: 25px; 
