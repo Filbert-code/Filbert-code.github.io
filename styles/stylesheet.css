@@ -85,7 +85,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   margin:auto;
   max-width: 992px;
   height: 100vh;
-  background-color: rgb(0, 251, 147);
+  background-color: rgb(0, 243, 251);
 }
 
 #landing-content-1 {
