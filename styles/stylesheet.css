@@ -167,10 +167,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-color: rgb(234, 0, 255);
   }
   #landing-content-1 {
-    height: 50px;
-  }
-  #self-image {
-    width: 50px; 
+    width: 25%;
+    height: auto;
   }
   #title-desc {
     font-size: 25px; 
