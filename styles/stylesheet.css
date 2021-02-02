@@ -167,8 +167,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-color: rgb(234, 0, 255);
   }
   #landing-content-1 {
-    width: 150px;
-    height: 150px;
+    width: 50%;
+    height: auto;
   }
   #self-image {
     width: 100%;
