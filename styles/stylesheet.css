@@ -165,7 +165,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     /* background-color: rgb(234, 0, 255); */
   }
   #self-image {
-    widows: 100px; 
+    width: 200px; 
   }
   #title-desc {
     font-size: 25px; 
