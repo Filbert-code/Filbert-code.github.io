@@ -42,7 +42,6 @@ nav {
   border-radius: 20px;
   margin: auto;
   justify-content: space-between;
-  
 }
 
 #nav-menu a {
@@ -62,6 +61,16 @@ nav {
 and (-webkit-min-device-pixel-ratio: 2) {
   .container {
     max-width: 100vw;
+  }
+
+  #nav-menu {
+    padding: 0;
+    border-radius: 20px;
+    margin: auto;
+  }
+
+  #nav-menu a {
+    font-size: 15px;
   }
 }
 
@@ -98,6 +107,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   /* background-color: rgb(132, 202, 28); */
 }
 
+#self-image {
+  width:300px; 
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
 #title {
   text-align: center; 
   font-size: 70px;
@@ -109,12 +124,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
   font-size: 40px; 
   padding-bottom: 20px;
   color: white;
-}
-
-#self-image {
-  width:25vh; 
-  border-radius: 50%;
-  border: 4px solid white;
 }
 
 #media-icons {
@@ -151,6 +160,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 400px) {
   #landing {
     max-width: 100vw;
+  }
+  #self-image {
+    width:200px; 
+  }
+  #title-desc {
+    font-size: 25px; 
   }
 }
 
