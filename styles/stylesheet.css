@@ -89,7 +89,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 #landing-content-1 {
-  background-color: rgb(42, 165, 128);
+  background-color: rgb(165, 61, 42);
   margin-top: 13vh;
   display: flex;
   justify-content: center;
@@ -167,7 +167,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-color: rgb(234, 0, 255);
   }
   #landing-content-1 {
-    height: auto;
+    height: 50px;
   }
   #self-image {
     width: 50px; 
