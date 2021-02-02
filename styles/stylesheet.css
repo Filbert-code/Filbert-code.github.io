@@ -168,6 +168,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #self-image {
     width: 50px; 
+    height: auto;
   }
   #title-desc {
     font-size: 25px; 
