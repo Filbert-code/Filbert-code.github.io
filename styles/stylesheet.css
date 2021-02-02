@@ -163,16 +163,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 and (-webkit-min-device-pixel-ratio: 2) {
   #landing {
     /* max-width: 100vw; */
-    height: auto;
+    /* height: auto; */
     background-color: rgb(234, 0, 255);
   }
   #landing-content-1 {
-    width: 50%;
-    height: auto;
+    /* width: 50%;
+    height: ; */
   }
   #self-image {
-    width: 100%;
-    height: auto;
+    width: 150px;
   }
   #title-desc {
     font-size: 25px; 
