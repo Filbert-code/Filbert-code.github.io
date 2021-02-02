@@ -1,82 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is a website to show my personal projects and interests.">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
-        <meta name="keywords" content="personal, portfolio, accomplishments, interests">
-        <meta name="author" content="Alex Filbert">
-        <link rel="stylesheet" href="styles/stylesheet.css">
-    </head>
 
-    <header>
-        <nav>
-            <div class="container">
-                <div id="nav-menu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a website to show my personal projects and interests.">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <meta name="keywords" content="personal, portfolio, accomplishments, interests">
+    <meta name="author" content="Alex Filbert">
+    <link rel="stylesheet" href="styles/stylesheet.css">
+</head>
+
+<header>
+    <nav>
+        <div class="mobile-container">
+            <div id="dropdown-nav">
+                <button id="nav-button"><img src="/Filbert-code.github.io/images/icons/menu-icon.png" alt=""></button>
+                <div id="dropdown-content">
                     <a href="#">About Me</a>
                     <a href="#">Projects</a>
                     <a href="#">Hobbies</a>
                     <a href="#">Contact Me</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+        <div class="container">
+            <div id="nav-menu">
+                <a href="#">About Me</a>
+                <a href="#">Projects</a>
+                <a href="#">Hobbies</a>
+                <a href="#">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+</header>
 
-    <body>
-        <section id="landing">
-            <div id="landing-content-1">
-                <img id="self-image" src="self_picture.jpg" alt="Picture of Alex Filbert">
+<body>
+    <section id="landing">
+        <div id="landing-content-1">
+            <img id="self-image" src="self_picture.jpg" alt="Picture of Alex Filbert">
+        </div>
+        <div id="landing-content-2">
+            <h1 id="title">Alex Filbert</h1>
+            <h2 id="title-desc">Computer Science Student</h2>
+            <div id="media-icons">
+                <ul>
+                    <li><a href="#"><img src="images/icons/github_icon-icons.com_60477.ico" alt="Github URL"></a></li>
+                    <li><a href="#"><img src="images/icons/upwork_94116.ico" alt="Upwork URL"></a></li>
+                    <li><a href="#"><img src="images/icons/sociallinkedin_member_2751.ico" alt="Linkedin URL"></a></li>
+                </ul>
             </div>
-            <div id="landing-content-2">
-                <h1 id="title">Alex Filbert</h1>
-                <h2 id="title-desc">Computer Science Student</h2>
-                <div id="media-icons">
-                    <ul>
-                        <li><a href="#"><img src="images/icons/github_icon-icons.com_60477.ico" alt="Github URL"></a></li>
-                        <li><a href="#"><img src="images/icons/upwork_94116.ico" alt="Upwork URL"></a></li>
-                        <li><a href="#"><img src="images/icons/sociallinkedin_member_2751.ico" alt="Linkedin URL"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="projects-section">
-            <div id="projects-title">
-                <h2>PROJECTS</h2>
-            </div>
-            
-            <div id="projects-content">
-                <div class="projects-col">
-                    <h3>TIC-TAC-TOE</h3>
-                    <img src="images/project-images/ttt_img.PNG" alt="Tic-Tac-Toe game image">
-                    <p>
-                        A game of TicTacToe where you play against the computer. 
-                        The computer will always either beat you or tie with you. 
-                        The computer uses an algorithm called Minimax to find its optimal move.
-                    </p>
-                </div>
-                <div class="projects-col">
-                    <h3>BOMBSAWAY</h3>
-                    <img src="images/project-images/bombsaway_img.PNG" alt="Bombsaway game image">
-                    <p>
-                        A top-down vertical-scroller shooter game with 3 levels. 
-                        Each level comes with different types of enemies at increasing 
-                        difficulty. Includes a player progression system to improve the 
-                        player's chances of survival.
-                    </p>
-                </div>
-                <div class="projects-col">
-                    <h3>DATABASE</h3>
-                    <img src="images/project-images/database_img.PNG" alt="Dry cleaning store database application">
-                    <p>
-                        A command line management system for a hypothetical service-providing 
-                        company named "Clean and Go". Retrieves company data using MySQL 
-                        queries that are sent to a relational database management system. 
-                    </p>
-                </div>
-            </div>
-        </section>
-    </body>
+    <section id="projects-section">
+        <div id="projects-title">
+            <h2>PROJECTS</h2>
+        </div>
 
-    
+        <div id="projects-content">
+            <div class="projects-col">
+                <h3>TIC-TAC-TOE</h3>
+                <img src="images/project-images/ttt_img.PNG" alt="Tic-Tac-Toe game image">
+                <p>
+                    A game of TicTacToe where you play against the computer.
+                    The computer will always either beat you or tie with you.
+                    The computer uses an algorithm called Minimax to find its optimal move.
+                </p>
+            </div>
+            <div class="projects-col">
+                <h3>BOMBSAWAY</h3>
+                <img src="images/project-images/bombsaway_img.PNG" alt="Bombsaway game image">
+                <p>
+                    A top-down vertical-scroller shooter game with 3 levels.
+                    Each level comes with different types of enemies at increasing
+                    difficulty. Includes a player progression system to improve the
+                    player's chances of survival.
+                </p>
+            </div>
+            <div class="projects-col">
+                <h3>DATABASE</h3>
+                <img src="images/project-images/database_img.PNG" alt="Dry cleaning store database application">
+                <p>
+                    A command line management system for a hypothetical service-providing
+                    company named "Clean and Go". Retrieves company data using MySQL
+                    queries that are sent to a relational database management system.
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+
+
 </html>
