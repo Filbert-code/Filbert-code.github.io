@@ -89,7 +89,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 #landing-content-1 {
-  /* background-color: brown; */
+  background-color: brown;
   margin-top: 13vh;
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   /* width: ; */
   margin-left: auto;
   margin-right: auto;
-  /* background-color: rgb(132, 202, 28); */
+  background-color: rgb(132, 202, 28);
 }
 
 #self-image {
@@ -161,7 +161,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 450px)
 and (-webkit-min-device-pixel-ratio: 2) {
   #landing {
-    max-width: 100vw;
+    /* max-width: 100vw; */
     background-color: rgb(234, 0, 255);
   }
   #self-image {
