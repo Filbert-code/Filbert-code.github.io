@@ -61,7 +61,7 @@ nav {
 
 #dropdown-nav {
   background-color: rgba(27, 16, 75, 0.794);
-  /* background-color: rgba(0, 174, 255, 0.794); */
+  background-color: rgba(0, 174, 255, 0.794);
   max-width: 496px;
   display: none;
   /* padding: 10px 20px 10px 20px; */
@@ -129,8 +129,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   #dropdown-nav {
     display:flex;
-    background-color: tomato;
-    /* border-radius: 0; */
+    background-color: rgba(217, 255, 0, 0.794);
   }
 
   #nav-menu {
@@ -142,8 +141,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #nav-button {
     width:75px;
-    height: auto;
-    /* border-radius: 0; */
+    height: 75px;
   }
   /* #dropdown-nav img {
     width: 100px;
@@ -273,7 +271,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   margin-left: auto;
   align-items:center;
   justify-content: space-evenly;
-  /* background-color: rgb(131, 0, 120); */
+  background-color: rgb(131, 0, 120);
 }
 
 #projects-title {
