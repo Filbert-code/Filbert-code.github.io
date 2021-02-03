@@ -4,8 +4,8 @@
 }
 
 body {
+  background-color: rgb(6, 0, 34);
   background-image:url(/Filbert-code.github.io/images/project-images/landingbg.jpeg);
-  /* background-color: rgb(6, 0, 34); */
   border: 2px solid black;
   color: white;
 
@@ -61,6 +61,7 @@ nav {
 
 #dropdown-nav {
   background-color: rgba(27, 16, 75, 0.794);
+  /* background-color: rgba(225, 0, 255, 0.794); */
   max-width: 496px;
   display: none;
   /* padding: 10px 20px 10px 20px; */
@@ -133,6 +134,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #dropdown-nav {
     display:flex;
     height: 10vh;
+    background-color: rgba(255, 0, 0, 0.794);
   }
 
   #nav-menu {
@@ -143,11 +145,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 15px;
   }
   #nav-button {
-    height:100%;
+    height:100px;;
   }
   #dropdown-nav img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
   }
 }
 
