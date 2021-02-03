@@ -121,6 +121,7 @@ nav {
 and (-webkit-min-device-pixel-ratio: 2) {
   .mobile-container {
     display: block;
+    height: 100px;
   }
 
   .container { 
