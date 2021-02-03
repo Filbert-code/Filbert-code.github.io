@@ -128,8 +128,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   #dropdown-nav {
+    border-radius: 0;
     display:flex;
-    background-color: rgba(217, 255, 0, 0.794);
+    /* background-color: rgba(217, 255, 0, 0.794); */
   }
 
   #nav-menu {
@@ -140,6 +141,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-size: 15px;
   }
   #nav-button {
+    border-radius: 0;
     width:75px;
     height: 75px;
   }
