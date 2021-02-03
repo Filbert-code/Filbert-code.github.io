@@ -61,7 +61,7 @@ nav {
 
 #dropdown-nav {
   background-color: rgba(27, 16, 75, 0.794);
-  background-color: rgb(255, 127, 223);
+  background-color: rgb(127, 229, 255);
   max-width: 496px;
   display: none;
   /* padding: 10px 20px 10px 20px; */
@@ -115,9 +115,6 @@ nav {
     height: auto;
     /* background-color: aquamarine; */
   }
-  #nav-button {
-    height:100%;
-  }
 }
 
 @media only screen and (max-width: 400px)
@@ -140,6 +137,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   #nav-menu a {
     font-size: 15px;
+  }
+  #nav-button {
+    height:100%;
   }
 }
 
