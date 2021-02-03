@@ -141,6 +141,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #nav-button {
     width:75px;
+    height: auto;
+    border-radius: 0;
   }
   /* #dropdown-nav img {
     width: 100px;
