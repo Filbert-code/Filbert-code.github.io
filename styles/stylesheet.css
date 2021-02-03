@@ -82,6 +82,7 @@ nav {
 
 #dropdown-nav img {
   width: 40px;
+  height: auto;
 }
 
 #dropdown-content {
@@ -108,6 +109,11 @@ nav {
   }
   #dropdown-nav {
     display:flex;
+    height: auto;
+    /* background-color: aquamarine; */
+  }
+  #nav-button {
+    height:100%;
   }
 }
 
@@ -214,8 +220,15 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen and (max-width: 992px) {
   #landing {
-    max-width: 100vw;
+    /* max-width: 100vw; */
     /* background-color: rgb(234, 0, 255); */
+  }
+  #self-image {
+    width: 250px;
+    height: 250px;
+  }
+  #title-desc {
+    font-size: 25px; 
   }
 }
 
