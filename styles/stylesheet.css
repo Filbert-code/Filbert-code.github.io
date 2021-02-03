@@ -129,7 +129,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   #dropdown-nav {
     display:flex;
-    background-color: rgba(217, 255, 0, 0.794);
+    border-radius: 0;
   }
 
   #nav-menu {
