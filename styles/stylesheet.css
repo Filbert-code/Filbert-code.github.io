@@ -61,7 +61,7 @@ nav {
 
 #dropdown-nav {
   background-color: rgba(27, 16, 75, 0.794);
-  background-color: rgba(0, 174, 255, 0.794);
+  /* background-color: rgba(0, 174, 255, 0.794); */
   max-width: 496px;
   display: none;
   /* padding: 10px 20px 10px 20px; */
@@ -272,7 +272,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   margin-left: auto;
   align-items:center;
   justify-content: space-evenly;
-  background-color: rgb(131, 0, 120);
+  /* background-color: rgb(131, 0, 120); */
 }
 
 #projects-title {
