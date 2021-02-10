@@ -234,6 +234,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #self-image {
     width: 250px;
     height: 250px;
+    border: 2px solid #000024;
   }
   #landing-content-2 {
     width: 400px;
@@ -260,7 +261,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #landing-content-1 {
     /* margin-top: 10vh; adjust the position of image */
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
 
   }
   #landing-content-2 {
