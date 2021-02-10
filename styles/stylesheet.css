@@ -261,6 +261,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #landing-content-2 {
     width: 400px;
   }
+  #media-icons {
+    width: 400px;
+  }
   #media-icons img {
     width: 100px;
   }
