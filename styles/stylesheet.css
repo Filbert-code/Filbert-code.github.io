@@ -238,6 +238,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #landing-content-2 {
     width: 400px;
   }
+  #media-icons {
+    width: 400px;
+  }
   #media-icons img {
     width: 100px;
   }
@@ -262,7 +265,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 400px;
   }
   #media-icons {
-    width: 400px;
+    width: 300px;
   }
   #media-icons img {
     width: 100px;
