@@ -261,7 +261,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
   #landing-content-1 {
     /* margin-top: 10vh; adjust the position of image */
-    /* margin-bottom: 5vh; */
+    margin-bottom: 8vh;
 
   }
   #landing-content-2 {
