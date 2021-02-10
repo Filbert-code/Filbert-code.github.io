@@ -259,7 +259,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   }
   #landing-content-1 {
-    margin-top: 10vh; /* adjust the position of image */
+    /* margin-top: 10vh; adjust the position of image */
+    margin-bottom: 20vh;
+
   }
   #landing-content-2 {
     width: 400px;
@@ -271,8 +273,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100px;
   }
   #self-image {
-    width: 250px;
-    height: 250px;
+    width: 125px;
+    height: 125px;
   }
   #title-desc {
     font-size: 25px; 
