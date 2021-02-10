@@ -255,6 +255,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     /* background-image: url(/Filbert-code.github.io/images/project-images/snowLandingBgMobile.jpg); */
 
   }
+  #landing-content-1 {
+    margin-top: 10vh; /* adjust the position of image */
+  }
   #self-image {
     width: 250px;
     height: 250px;
