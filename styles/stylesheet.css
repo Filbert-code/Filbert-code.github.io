@@ -248,6 +248,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   #landing-content-1 {
     margin-top: 10vh; /* adjust the position of image */
   }
+  #landing-content-2 {
+    width: 400px;
+  }
+  #media-icons img {
+    width: 100px;
+  }
   #self-image {
     width: 250px;
     height: 250px;
