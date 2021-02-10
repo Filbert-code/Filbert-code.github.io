@@ -170,7 +170,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 #landing-content-1 {
   /* background-color: rgb(165, 61, 42); */
-  margin-top: 20vh; /* adjust the position of image */
+  margin-top: 12vh; /* adjust the position of image */
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -183,6 +183,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
   flex-direction: column;
   justify-content: flex-start;
   width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   /* background-color: rgb(132, 202, 28); */
@@ -202,7 +204,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 #title-desc {
   text-align: center; 
-  font-size: 40px; 
+  font-size: 30px; 
   padding-bottom: 20px;
   color:  rgba(255, 255, 255, 0.794);;
 }
